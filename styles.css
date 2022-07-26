@@ -1,0 +1,83 @@
+body{
+  background-color:  hsl(30, 38%, 92%);
+
+}
+.perfume-body{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex: auto;
+  padding: 10px;
+  margin-top: 50px;
+}
+#image{
+  width: 30%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+}
+.preview-body{
+background-color:  hsl(0, 0%, 100%);
+padding-left: 30px;
+padding-right: 15px;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+h4{
+  font-size: 20px;
+padding: 4px;
+color:  hsl(228, 12%, 48%);
+}
+h1{
+  color: hsl(212, 21%, 14%);
+  font-size: 30px;
+  font-family: 'Montserrat';
+font-weight: bolder;
+}
+p{
+  color: hsl(228, 12%, 48%);
+  line-height: 25px;
+}
+#figure{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h2{
+  color:  hsl(158, 36%, 37%);
+  font-size: 30px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+
+}
+h5{
+color: hsl(228, 12%, 48%);
+font-size: 15px;
+margin-left: 10px;
+text-decoration-line: line-through;
+}
+button{
+  width: 80%;
+  border-radius: 10px;
+  background-color:  hsl(158, 36%, 37%);
+  padding: 10px;
+  border-style: none;
+  color:  hsl(0, 0%, 100%);
+  margin-bottom: 30px;
+}
+
+button:hover{
+    background-color: green;
+}
+
+.attribution {
+   font-size: 11px;
+   text-align: center;
+   color: hsl(212, 21%, 14%);
+ }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+ }
+ .attribution a:hover {
+   color: purple;
+  }
